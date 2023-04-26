@@ -9,7 +9,7 @@ const bioData = [
         nftAvatar: true,
         description: 'Custom bio links for Lahiru , who love coding. ',
         descShow: true,
-        subdesc: 'Use this template and deploy on vercel for free',
+        subdesc: ' ',
         subdescShow: false,
         newProductUrl: 'https://3dicons.co',
         newProduct: false,
