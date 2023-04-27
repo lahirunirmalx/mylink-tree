@@ -10,7 +10,7 @@ const bioData = [
         description: 'Custom bio links for Lahiru , who love coding. ',
         descShow: true,
         subdesc: ' ',
-        subdescShow: false,
+        subdescShow: true,
         newProductUrl: 'https://3dicons.co',
         newProduct: false,
         author: 'Lahiru',

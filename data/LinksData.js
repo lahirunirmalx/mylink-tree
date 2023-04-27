@@ -3,14 +3,14 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://twitter.com/lahirunirmala',
         type: 'social',
         icon: '/twitter.svg',
         on: true
     },
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://instagram.com/lahirunirmala',
         type: 'social',
         icon: '/insta.svg',
         on: true
@@ -31,7 +31,7 @@ const webLinks = [
     },
     {
         title: 'Github',
-        url: 'https://github.com/realvjy',
+        url: 'https://github.com/lahirunirmalx',
         type: 'social',
         icon: '/github.svg',
         on: true
@@ -48,7 +48,7 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/figma.svg',
-        on: true
+        on: false
     },
     {
         title: 'Behance',
@@ -69,7 +69,7 @@ const webLinks = [
         url: 'https://mastodon.online/@realvjy',
         type: 'social',
         icon: '/mastodon.svg',
-        on: true
+        on: false
     },
     {
         title: 'Hive Social',
