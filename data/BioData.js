@@ -5,7 +5,7 @@ const bioData = [
         username: 'lahirunirmalx.netlify.app',
         url: 'https://lahirunirmalx.netlify.app',
         titleImg: false,
-        avatar: '/avatar.png',
+        avatar: '/avatar.jpg',
         nftAvatar: true,
         description: 'Custom bio links for Lahiru , who love coding. ',
         descShow: true,
