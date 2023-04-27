@@ -123,6 +123,8 @@ const Links = () => {
             {/* Social Icon */}
 
             {/* Install Section */}
+            {
+              install.length > 0 ?
             <LinkSection>
               <h3>{install[0].type}</h3>
               {
@@ -136,7 +138,8 @@ const Links = () => {
                   )
                 })
               }
-            </LinkSection>
+            </LinkSection> : ''
+            }
             {/* End Install Section */}
 
             {/* NFT Section */}
@@ -161,6 +164,8 @@ const Links = () => {
             {/* End NFT Section */}
 
             {/* Other Section */}
+            {
+              others.length > 0 ?
             <LinkSection>
               <h3>{others[0].type}</h3>
               {/* BioData.js > newProduct == true */}
@@ -186,7 +191,8 @@ const Links = () => {
                   )
                 })
               }
-            </LinkSection>
+            </LinkSection> : ''
+            }
             {/* End Other Section */}
 
           </WebLinkWrap>
