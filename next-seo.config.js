@@ -2,11 +2,11 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        title: 'links by lahiru',
+        url: 'https://lahirunirmalx.netlify.app',
+        description: 'Custom bio links for lahiru who love coding.',
         locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        keywords: 'tech ,lead ,software, orangehrm ,nft art',
         images: [
             {
                 width: 1200,
@@ -14,11 +14,11 @@ export default {
                 url: `https://vjy.me/preview.jpg`,
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'lahiru',
     },
     twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
+        handle: '@lahirunirmala',
+        site: 'lahirunirmalx.netlify.app',
         cardType: 'summary_large_image',
     },
 };
