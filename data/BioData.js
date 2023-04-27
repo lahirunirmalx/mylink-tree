@@ -15,7 +15,7 @@ const bioData = [
         newProduct: false,
         author: 'Lahiru',
         authorURL: 'https://twitter.com/lahirunirmala',
-        footerText: 'made by'
+        footerText: 'by'
     },
 ];
 

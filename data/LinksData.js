@@ -13,11 +13,11 @@ const webLinks = [
         url: 'https://instagram.com/lahirunirmala',
         type: 'social',
         icon: '/insta.svg',
-        on: true
+        on: false
     },
     {
-        title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
+        title: 'FaceBook',
+        url: 'https://www.facebook.com/profile.php?id=100092009315486',
         type: 'social',
         icon: '/facebook.svg',
         on: true
@@ -59,10 +59,10 @@ const webLinks = [
     },
     {
         title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
+        url: 'https://www.linkedin.com/in/lahirunirmala/',
         type: 'social',
         icon: '/linkedin.svg',
-        on: false
+        on: true
     },
     {
         title: 'Mastodon',
@@ -130,10 +130,10 @@ const webLinks = [
     },
     {
         title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
+        url: 'https://github.com/lahirunirmalx/mylink-tree',
         type: 'install',
         icon: '/github-fill.svg',
-        on: false
+        on: true
     },
 
     {
