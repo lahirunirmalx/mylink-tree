@@ -19,15 +19,15 @@ const webLinks = [
         title: 'Dribbble',
         url: 'https://dribbble.com/realvjy',
         type: 'social',
-        icon: '/dribbble.svg',
-        on: false
+        icon: '/facebook.svg',
+        on: true
     },
     {
-        title: 'Medium',
-        url: 'https://medium.com/@realvjy',
+        title: 'Reddit',
+        url: 'https://www.reddit.com/user/lahirunirmala',
         type: 'social',
-        icon: '/medium.svg',
-        on: false
+        icon: '/reddit.svg',
+        on: true
     },
     {
         title: 'Github',
