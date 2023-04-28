@@ -139,7 +139,7 @@ const webLinks = [
     {
         title: 'WhatsApp',
         url: 'https://wa.me/+9475',
-        type: 'install',
+        type: 'other',
         icon: '/whatsapp.svg',
         on: true
     },
@@ -147,7 +147,7 @@ const webLinks = [
     {
         title: 'telegram',
         url: 'https://t.me/lahirunirmala',
-        type: 'install',
+        type: 'other',
         icon: '/telegram.svg',
         on: true
     },
