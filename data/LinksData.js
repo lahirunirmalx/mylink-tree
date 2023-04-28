@@ -133,23 +133,23 @@ const webLinks = [
         url: 'https://github.com/lahirunirmalx/mylink-tree',
         type: 'install',
         icon: '/github-fill.svg',
+        on: false
+    },
+
+    {
+        title: 'WhatsApp',
+        url: 'https://wa.me/+9475',
+        type: 'install',
+        icon: '/whatsapp.svg',
         on: true
     },
 
     {
-        title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
-        type: 'other',
-        icon: '/bmc.png',
-        on: false
-    },
-
-    {
-        title: 'link demo',
-        url: 'https://vjy.me/lnk',
-        type: 'other',
-        icon: '/vjy.png',
-        on: false
+        title: 'telegram',
+        url: 'https://t.me/lahirunirmala',
+        type: 'install',
+        icon: '/telegram.svg',
+        on: true
     },
 
     {
