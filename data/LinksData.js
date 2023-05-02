@@ -145,7 +145,7 @@ const webLinks = [
     },
 
     {
-        title: 'telegram',
+        title: 'Telegram',
         url: 'https://t.me/lahirunirmala',
         type: 'other',
         icon: '/telegram.svg',
@@ -153,11 +153,11 @@ const webLinks = [
     },
 
     {
-        title: 'maker website',
-        url: 'https://vjy.me',
+        title: 'Website',
+        url: 'https://orangehrm.com',
         type: 'other',
-        icon: '/vjy.png',
-        on: false
+        icon: '/web.svg',
+        on: true
     },
 ];
 
