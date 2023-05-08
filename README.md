@@ -4,11 +4,10 @@
 
 A perfect custom alternative for linktree, bio and other shortner platform. Check live version here [nxtlnk.xyz](https://nxtlnk.xyz)
 
+Original Repo can be found here [nxtlnk.xyz](https://github.com/realvjy/nxt-lnk)
+
 Pull requests are always welcome. In case you want inspiration or new features on what to add, check out the issues for feature requests.
 
-Coffee fuels coding ☕️
-
-<a href="https://www.buymeacoffee.com/realvjy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 **Table of Contents**
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -43,21 +42,20 @@ For customization used [styled components](https://styled-components.com/). If y
 **Template auto support dark-mode depending on system cofig.**
 
 ## Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/realvjy/nxt-lnk)
+ [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lahirunirmalx/mylink-tree)
 
 
 ## Manual Setup
 Run the following command to create a new project with this template:
 ```bash
-yarn create next-app your-app-name -e https://github.com/realvjy/nxt-lnk
+yarn create next-app your-app-name -e https://github.com/lahirunirmalx/mylink-tree
 # or
-npx create-next-app your-app-name -e https://github.com/realvjy/nxt-lnk
+npx create-next-app your-app-name -e https://github.com/lahirunirmalx/mylink-tree
 ```
 
 ## Getting Started
 
-Use any editor to work on editing. I use [vscode](https://code.visualstudio.com/)
-
+Use any editor to work on editing.  
 First, run the development server:
 ```bash
 npm run dev
