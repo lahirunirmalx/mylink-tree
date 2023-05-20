@@ -10,7 +10,7 @@ const bioData = [
         descShow: true,
         subdesc: 'PHP | React.js | Vue.js | next.js | Angular',
         subdescShow: true,
-        newProductUrl: 'https://3dicons.co',
+        newProductUrl: 'https://twitter.com/lahirunirmala',
         newProduct: false,
         author: 'Lahiru',
         authorURL: 'https://twitter.com/lahirunirmala',
