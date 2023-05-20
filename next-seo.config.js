@@ -1,7 +1,6 @@
 export default {
     openGraph: {
         type: 'website',
-        locale: 'en_IE',
         title: 'links by lahiru',
         url: 'https://lahirunirmalx.netlify.app',
         description: 'Custom bio links for lahiru who love coding.',
