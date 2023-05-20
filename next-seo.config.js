@@ -3,7 +3,7 @@ export default {
         type: 'website',
         title: 'links by lahiru',
         url: 'https://lahirunirmalx.netlify.app',
-        description: 'Custom bio links for lahiru who love coding.',
+        description: 'Dad - (kick) ass | tech lead , who loves coding.',
         locale: 'en_EN',
         keywords: 'tech ,lead ,software, orangehrm ,nft art',
         images: [
