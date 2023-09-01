@@ -5,7 +5,7 @@ const webLinks = [
         title: 'Twitter',
         url: 'https://twitter.com/lahirunirmala',
         type: 'social',
-        icon: '/twitter.svg',
+        icon: '/twitter-new.svg',
         on: true
     },
     {
