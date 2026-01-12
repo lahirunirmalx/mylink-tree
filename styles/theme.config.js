@@ -1,6 +1,3 @@
-import GlobalStyle from "./GlobalStyle"
-
-GlobalStyle
 const light = {
     bg: {
         primary: `var(--white)`,
