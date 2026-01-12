@@ -79,13 +79,14 @@ const Links = () => {
                 <img
                   src={avatarImg}
                   className={avatarShape}
+                  alt={name}
                 />
               </AvatarWrap>
             </Avatar>
             <Title>
               {/* Using titleimg flag to use image as title or text */}
               {titleImg ?
-                <img src={titleImage} className="handle" /> :
+                <img src={titleImage} className="handle" alt={name} /> :
                 <h1>{name}</h1>
               }
               {/* if your remove username from data it will not appear */}
@@ -112,7 +113,7 @@ const Links = () => {
                     return (
                       <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                         <LinkBox className="socialIcon">
-                          <img src={i.icon} style={{ filter: 'var(--img)' }} />
+                          <img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} />
                         </LinkBox>
                       </a>
                     )
@@ -132,7 +133,7 @@ const Links = () => {
                   return (
                     <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                       <LinkBox>
-                        <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                        <LinkTitle><img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
                       </LinkBox>
                     </a>
                   )
@@ -152,7 +153,7 @@ const Links = () => {
                       return (
                         <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                           <LinkBox>
-                            <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                            <LinkTitle><img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
                           </LinkBox>
                         </a>
                       )
@@ -175,6 +176,7 @@ const Links = () => {
                   <img
                     src={'/newproduct.png'}
                     className="newproduct"
+                    alt="New Product"
                   />
                 </a>
               </NewSection> : ''
@@ -185,7 +187,7 @@ const Links = () => {
                   return (
                     <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                       <LinkBox>
-                        <LinkTitle><img src={i.icon} /> {i.title}</LinkTitle> <NewUp />
+                        <LinkTitle><img src={i.icon} alt={i.title} /> {i.title}</LinkTitle> <NewUp />
                       </LinkBox>
                     </a>
                   )

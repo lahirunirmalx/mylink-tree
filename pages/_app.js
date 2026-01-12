@@ -10,15 +10,37 @@ import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
 
 function MyApp({ Component, pageProps }) {
-    const darkMode = useDarkMode(false, { storageKey: null, onChange: null })
+    const darkMode = useDarkMode(false, { 
+        storageKey: 'darkMode',
+        onChange: null 
+    })
     const [isMounted, setIsMounted] = useState(false)
 
-    // const [theme, setTheme] = useState(lightTheme)
     const theme = darkMode.value ? darkTheme : lightTheme;
 
     useEffect(() => {
         setIsMounted(true);
-    }, [])
+        
+        // Listen for system preference changes
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const handleChange = (e) => {
+            if (localStorage.getItem('darkMode') === null) {
+                if (e.matches) {
+                    darkMode.enable();
+                } else {
+                    darkMode.disable();
+                }
+            }
+        };
+        
+        // Set initial theme based on system preference if no stored preference
+        if (localStorage.getItem('darkMode') === null && mediaQuery.matches) {
+            darkMode.enable();
+        }
+        
+        mediaQuery.addEventListener('change', handleChange);
+        return () => mediaQuery.removeEventListener('change', handleChange);
+    }, [darkMode])
 
     return (
         <>
@@ -27,7 +49,6 @@ function MyApp({ Component, pageProps }) {
                 <Head>
                     <meta content="width=device-width, initial-scale=1" name="viewport" />
                     <link rel="icon" href="/favicon.ico" />
-
                 </Head>
                 <GlobalStyle />
                 <Layout>
