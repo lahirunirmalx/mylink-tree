@@ -9,6 +9,7 @@ import Link from "next/link";
 import { ChevronRightIcon, HexIcon, HomeIcon, TwitterIcon, NewUp, OvalIcon } from './icons';
 import allLinks from "../data/LinksData";
 import bioData from "../data/BioData";
+import StarBorder from "./react-bits/StarBorder";
 
 
 
@@ -111,11 +112,11 @@ const Links = () => {
                 {
                   social.map((i) => {
                     return (
-                      <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                      <StarBorder as="a" className="link-star social-star" href={i.url} key={i.title} target="_blank" rel="noreferrer">
                         <LinkBox className="socialIcon">
                           <img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} />
                         </LinkBox>
-                      </a>
+                      </StarBorder>
                     )
                   })
                 }
@@ -131,11 +132,11 @@ const Links = () => {
               {
                 install.map((i) => {
                   return (
-                    <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                    <StarBorder as="a" className="link-star" href={i.url} key={i.title} target="_blank" rel="noreferrer">
                       <LinkBox>
                         <LinkTitle><img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
                       </LinkBox>
-                    </a>
+                    </StarBorder>
                   )
                 })
               }
@@ -151,11 +152,11 @@ const Links = () => {
                   {
                     nfts.map((i) => {
                       return (
-                        <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                        <StarBorder as="a" className="link-star" href={i.url} key={i.title} target="_blank" rel="noreferrer">
                           <LinkBox>
                             <LinkTitle><img src={i.icon} alt={i.title} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
                           </LinkBox>
-                        </a>
+                        </StarBorder>
                       )
                     })
                   }
@@ -172,24 +173,24 @@ const Links = () => {
               {/* BioData.js > newProduct == true */}
               {/* New Section will render once newProduct == true */}
               {(newProduct) ? <NewSection>
-                <a href={newProductUrl} target="_blank" rel="noreferrer">
+                <StarBorder as="a" className="link-star" href={newProductUrl} target="_blank" rel="noreferrer">
                   <img
                     src={'/newproduct.png'}
                     className="newproduct"
                     alt="New Product"
                   />
-                </a>
+                </StarBorder>
               </NewSection> : ''
               }
               {/* End Biodata.js, You can move this section anywhere */}
               {
                 others.map((i) => {
                   return (
-                    <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                    <StarBorder as="a" className="link-star" href={i.url} key={i.title} target="_blank" rel="noreferrer">
                       <LinkBox>
                         <LinkTitle><img src={i.icon} alt={i.title} /> {i.title}</LinkTitle> <NewUp />
                       </LinkBox>
-                    </a>
+                    </StarBorder>
                   )
                 })
               }
@@ -397,6 +398,22 @@ const LinkFoot = styled.div`
 `
 
 const WebLinkWrap = styled.div`
+    .link-star{
+      display: block;
+      border-radius: 12px;
+    }
+    .link-star.social-star{
+      display: inline-flex;
+      border-radius: 999px;
+    }
+    .link-star .inner-content{
+      padding: 0;
+      border: none;
+      background: transparent;
+      color: inherit;
+      font-size: inherit;
+      border-radius: inherit;
+    }
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
        padding: 0 12px;
     }

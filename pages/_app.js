@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import useDarkMode from "use-dark-mode"
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
+import "../components/react-bits/StarBorder.css";
 import Layout from "../components/Layout";
 import GlobalStyle from "../styles/GlobalStyle";
 import { darkTheme, lightTheme } from "../styles/theme.config";
