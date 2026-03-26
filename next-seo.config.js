@@ -10,7 +10,7 @@ export default {
             {
                 width: 1200,
                 height: 630,
-                url: `https://raw.githubusercontent.com/lahirunirmalx/mylink-tree/main/public/preview.jpg`,
+                url: `https://lahirunirmalx.netlify.app/preview.jpg`,
             },
         ],
         site_name: 'lahiru',
