@@ -1,14 +1,15 @@
-import styled from 'styled-components'
-import ReactDOM from 'react-dom';
+import dynamic from 'next/dynamic';
+import styled from 'styled-components';
 
-
+const SplashCursor = dynamic(() => import('./react-bits/SplashCursor'), { ssr: false });
 
 export default function Layout({ children }) {
-    return (
-        <Main >
-            {children}
-        </Main>
-    )
+  return (
+    <Main>
+      {children}
+      <SplashCursor />
+    </Main>
+  );
 }
 
 const Main = styled.main`
@@ -20,5 +21,5 @@ const Main = styled.main`
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     background-size: 250%;
     background-position: -50vh 30vh;
-   }
+  }
 `;
