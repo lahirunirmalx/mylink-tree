@@ -138,7 +138,7 @@ const webLinks = [
 
     {
         title: 'WhatsApp',
-        url: 'https://wa.me/+94716277995',
+        url: 'https://wa.me/lahirunirmal',
         type: 'other',
         icon: '/whatsapp.svg',
         on: true
